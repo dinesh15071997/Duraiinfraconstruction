@@ -1,0 +1,326 @@
+/* Reset some default styles for the body and anchor tags */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Style the header */
+.header {
+    background-color: #fff; /* White background for the header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    padding: 10px 0; /* Add padding to the top and bottom of the header */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Style the logo */
+.logo img {
+    max-height: 150px; /* Set the maximum height of the logo */
+}
+
+/* Style the navigation menu */
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-left: 60px; /* Add some space between menu items */
+}
+
+.navigation a {
+    color: #333; /* Dark text color for menu items */
+    font-weight: bold;
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+.navigation a:hover {
+    color: #007BFF; /* Change color to a shade of blue on hover */
+}
+
+/* Style the Call to Action (CTA) button */
+.cta-button {
+    margin-right: none;
+}
+
+.cta-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Blue button background */
+    color: #fff; /* White text color */
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s; /* Add a smooth background color transition on hover */
+}
+
+.cta-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* Styles for the Hero Section */
+.hero {
+    background-image: url('images/@.jpg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* White text color on the hero section */
+    text-align: center;
+    padding: 120px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Blue button background */
+    color: #fff; /* White text color */
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none; /* Remove underline from the link */
+    transition: background-color 0.3s; /* Add a smooth background color transition on hover */
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* Styles for the About Us Section */
+.about-us {
+    background-image: url('images/2.jpg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    color: #070707; /* White text color on the hero section */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 20px;
+    margin: 0 0 20px;
+    line-height: 1.5;
+}
+/* Styles for the Services Section */
+.services {
+    background-image: url('images/MISSIN\ 1.jpg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    color: #070707; /* White text color on the hero section */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    flex-basis: calc(33.3333% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f7f7f7; /* Light gray background for service cards */
+    border: 1px solid #e1e1e1; /* Light gray border */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+/* Styles for the Projects Section */
+.projects {
+    background-image: url('images/b2.jpg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    color: #070707; /* White text color on the hero section */
+    text-align: center;
+    padding: 0px 0;
+}
+
+.projects .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projects h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.project {
+    flex-basis: calc(33.3333% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f7f7f7; /* Light gray background for project cards */
+    border: 1px solid #e1e1e1; /* Light gray border */
+    border-radius: 0px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+/* Styles for the CONTACT Section */
+.services {
+    background-size: cover;
+    background-position: center;
+    color: #070707; /* White text color on the hero section */
+    text-align: left;
+    padding: 10px 0;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-card {
+    flex-basis: calc(33.3333% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f7f7f7; /* Light gray background for service cards */
+    border: 1px solid #e1e1e1; /* Light gray border */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+/* Styles for the Footer Section */
+.footer {
+    background-color: hsl(0, 12%, 97%); /* Dark background for the footer */
+    color: #fff; /* White text color in the footer */
+    padding: 20px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-height: 80px; /* Set the maximum height of the logo in the footer */
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #070707; /* White text color for footer links */
+}
+
+.footer-social a.social-icon {
+    color: #030303; /* White text color for social media icons */
+    text-decoration: none;
+    margin-right: 20px;
+}
